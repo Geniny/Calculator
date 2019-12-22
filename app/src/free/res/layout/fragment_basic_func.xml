@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:background="@android:color/black"
+    android:id="@+id/fragment"
+    tools:context=".BasicFuncFragment"
+    >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="7dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/charDot"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="."
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charClear"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="Del"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charDel"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="C"
+            android:textAlignment="center"
+
+            android:layout_weight="1"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charEqual"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="="
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="7dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/char1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="2"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="3"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charPlus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="7dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/char4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="4"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="5"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="6"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charMinus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="7dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/char7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="7"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="8"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/char9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="9"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charMul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="*"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/char0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charBracket1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text="("
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charBracket2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:text=")"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/charDiv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/oval_button"
+            android:gravity="fill"
+            android:layout_weight="1"
+            android:text="/"
+            android:textAlignment="center"
+            android:textSize="35dp" />
+
+
+    </TableRow>
+
+</TableLayout>
